@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222831;
+    color: #EEEEEE;
+}
+/* Light theme */
+body.light {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Dark theme */
+body.dark {
+    background-color: #000;
+    color: #fff;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+form {
+    margin: 30px auto;
+    width: 50%;
+    text-align: center;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    width: 60%;
+    margin-bottom: 20px;
+    background-color: #393E46;
+    color: #EEEEEE;
+}
+
+#morse_code_output {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    display: none;
+}
+#shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+#shadow__btn {
+  background: rgb(0,140,255);
+  box-shadow: 0 0 25px rgb(0,140,255);
+}
+
+#shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(0,140,255),
+              0 0 25px rgb(0,140,255),
+              0 0 50px rgb(0,140,255),
+              0 0 100px rgb(0,140,255);
+}
+
